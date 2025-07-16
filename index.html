@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>نمونه کار افشین | طراح رابط کاربری</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.fontcdn.ir/Font/Persian/Shabnam/Shabnam.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Shabnam', sans-serif;
+      scroll-behavior: smooth;
+    }
+    .fade-in {
+      animation: fadeIn 1.5s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-tr from-indigo-900 via-blue-900 to-purple-900 text-white">
+
+  <!-- Header -->
+  <header class="bg-indigo-800 bg-opacity-80 backdrop-blur-md shadow-md sticky top-0 z-50">
+    <div class="container mx-auto flex justify-between items-center px-6 py-4">
+      <h1 class="text-2xl font-bold">لوگو</h1>
+      <nav class="space-x-6 space-x-reverse hidden md:flex">
+        <a href="#about" class="hover:text-yellow-300 transition">درباره من</a>
+        <a href="#services" class="hover:text-yellow-300 transition">خدمات</a>
+        <a href="#portfolio" class="hover:text-yellow-300 transition">نمونه‌کارها</a>
+        <a href="#contact" class="hover:text-yellow-300 transition">تماس</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="text-center py-24 bg-gradient-to-br from-indigo-950 to-blue-950 fade-in">
+    <h2 class="text-5xl font-bold mb-4">سلام! 👋 من افشین هستم</h2>
+    <p class="text-gray-300 text-lg max-w-2xl mx-auto mb-6">طراح رابط کاربری حرفه‌ای با تمرکز روی تجربه کاربری، زیبایی‌شناسی و طراحی واکنش‌گرا برای وب‌سایت‌ها و اپلیکیشن‌ها.</p>
+    <a href="#contact" class="bg-yellow-400 text-black px-8 py-3 rounded-full shadow-xl hover:scale-105 transition-all">درخواست همکاری</a>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-20 bg-indigo-900 bg-opacity-30 text-center">
+    <h3 class="text-4xl font-bold mb-6">درباره من</h3>
+    <p class="text-gray-300 max-w-3xl mx-auto leading-loose text-lg">
+      من افشین، عاشق طراحی تمیز، ساده و کاربرمحورم. طراحی UI برای من فقط زیبایی نیست؛ بلکه تجربه‌ایه که کاربر حس خوبی ازش بگیره. از ابزارهایی مثل Tailwind، Figma و HTML/CSS استفاده می‌کنم تا بهترین خروجی رو تحویل بدم.
+    </p>
+  </section>
+
+  <!-- خدمات -->
+  <section id="services" class="py-20 bg-gradient-to-br from-blue-950 to-indigo-900">
+    <div class="text-center mb-14">
+      <h3 class="text-4xl font-bold">خدمات من</h3>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10 px-6 max-w-6xl mx-auto">
+      <div class="bg-white bg-opacity-10 p-8 rounded-2xl hover:scale-105 transition-all shadow-xl">
+        <h4 class="text-2xl font-bold mb-2">طراحی UI</h4>
+        <p class="text-gray-300 text-base">طراحی حرفه‌ای صفحات وب، اپ و پنل مدیریت با تجربه کاربری عالی</p>
+      </div>
+      <div class="bg-white bg-opacity-10 p-8 rounded-2xl hover:scale-105 transition-all shadow-xl">
+        <h4 class="text-2xl font-bold mb-2">Figma Design</h4>
+        <p class="text-gray-300 text-base">طراحی پروتوتایپ و وایرفریم با Figma با قابلیت تحویل تیمی</p>
+      </div>
+      <div class="bg-white bg-opacity-10 p-8 rounded-2xl hover:scale-105 transition-all shadow-xl">
+        <h4 class="text-2xl font-bold mb-2">فرانت‌اند</h4>
+        <p class="text-gray-300 text-base">کدنویسی با Tailwind CSS, HTML برای رابط واکنش‌گرا و سریع</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- نمونه کارها -->
+  <section id="portfolio" class="py-24 bg-indigo-950">
+    <div class="text-center mb-14">
+      <h3 class="text-4xl font-bold">نمونه‌کارها</h3>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 px-6 max-w-6xl mx-auto">
+      <div class="bg-white bg-opacity-5 rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition">
+        <img src="3.png" alt="نمونه اول" class="w-full">
+        <div class="p-5">
+          <h4 class="text-xl font-semibold mb-1">صفحه فرود فروشگاهی</h4>
+          <p class="text-gray-300 text-sm">طراحی صفحه فرود مدرن برای معرفی محصول</p>
+        </div>
+      </div>
+      <div class="bg-white bg-opacity-5 rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition">
+        <img src="2.png" alt="نمونه دوم" class="w-full">
+        <div class="p-5">
+          <h4 class="text-xl font-semibold mb-1">پنل کاربری</h4>
+          <p class="text-gray-300 text-sm">داشبورد مدرن با تمرکز روی دسترسی سریع</p>
+        </div>
+      </div>
+      <div class="bg-white bg-opacity-5 rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition">
+        <img src="1.png" alt="نمونه سوم" class="w-full">
+        <div class="p-5">
+          <h4 class="text-xl font-semibold mb-1">سایت شخصی</h4>
+          <p class="text-gray-300 text-sm">طراحی شخصی برای معرفی رزومه و مهارت‌ها</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- تماس -->
+  <section id="contact" class="py-24 text-center bg-blue-900 bg-opacity-10">
+    <h3 class="text-4xl font-bold mb-8">در تماس باشید</h3>
+    <form class="max-w-xl mx-auto space-y-6">
+      <input type="text" placeholder="نام کامل" class="w-full bg-gray-800 text-white p-4 rounded-lg focus:outline-none">
+      <input type="email" placeholder="ایمیل" class="w-full bg-gray-800 text-white p-4 rounded-lg focus:outline-none">
+      <textarea placeholder="پیام شما..." rows="4" class="w-full bg-gray-800 text-white p-4 rounded-lg focus:outline-none"></textarea>
+      <button class="bg-yellow-400 text-black px-8 py-3 rounded-full hover:bg-yellow-500 transition">ارسال پیام</button>
+    </form>
+  </section>
+
+  <!-- فوتر -->
+  <footer class="bg-black text-gray-400 py-6 text-center">
+    طراحی شده با 💙 توسط افشین | 1403
+  </footer>
+
+</body>
+</html>
